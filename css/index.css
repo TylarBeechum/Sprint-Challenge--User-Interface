@@ -24,6 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -50,6 +51,26 @@ table {
 * {
     box-sizing: border-box;
 }
+
+
+nav{
+    margin-right:60px;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+    padding-top:30px;
+    display:flex;
+    justify-content:space-evenly;
+    }
+
+
+    .links{
+
+        font-size: 14;
+        color:gray;
+	 line-height: 80px;
+   padding-left:65%;
+    }
 
 html, body {
     height: 100%;
@@ -143,4 +164,58 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.boxes{
+    
+    display:flex;
+    flex-wrap:wrap;
+
+}
+.box1{
+    background-color:teal;
+   width:20%;
+   border:50px;
+   height:40:px;
+}
+
+.box2{
+    background-color:gold;
+
+}
+
+.box3{
+    background-color:cadetblue;
+
+}
+
+.box4{
+    background-color:coral;
+
+}
+
+.box5{
+    background-color:crimson;
+
+}
+
+.box6{
+    background-color:forestgreen;
+
+}
+
+.box7{
+ background-color:darkorchid
+}
+
+.box8{
+background-color: hotpink;
+}
+
+.box9{
+background-color: indigo;
+}
+
+.box10{
+background-color: dodgerblue;
 }
