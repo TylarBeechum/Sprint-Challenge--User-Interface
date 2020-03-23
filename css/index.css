@@ -52,25 +52,33 @@ table {
     box-sizing: border-box;
 }
 
+.body-nav{
+    color: black;
+    
+}
 
-nav{
-    margin-right:60px;
-    display: inline-block;
-    font-size: 16px;
-    width: 100%;
-    padding-top:30px;
+nav {
+    display: flex;
+    justify-content:center;
+    margin-top: 20px;
+    color:black;
+    
+}
+
+nav a{
+    color:black;
+    padding-right:80px;
+    margin-bottom:20px;
+    
+}
+
+
+.header-img{
     display:flex;
-    justify-content:space-evenly;
-    }
-
-
-    .links{
-
-        font-size: 14;
-        color:gray;
-	 line-height: 80px;
-   padding-left:65%;
-    }
+    justify-content:center;
+    padding-top:20px;
+    padding-bottom:30px;
+}
 
 html, body {
     height: 100%;
@@ -86,6 +94,7 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+
 
 .container {
     width: 800px;
@@ -167,55 +176,84 @@ footer nav a {
 }
 
 .boxes{
+    margin: 0 auto;
+    width:270px;
+    height:100px;
     
-    display:flex;
-    flex-wrap:wrap;
-
-}
-.box1{
-    background-color:teal;
-   width:20%;
-   border:50px;
-   height:40:px;
+    
 }
 
-.box2{
-    background-color:gold;
-
+#a{
+background-color:teal;
+border
 }
 
-.box3{
-    background-color:cadetblue;
-
+#b{
+    background-color:gold; 
 }
 
-.box4{
-    background-color:coral;
-
+#c{
+    background-color:cadetblue; 
 }
 
-.box5{
+#d{
+    background-color: coral;
+}
+
+#e{
     background-color:crimson;
-
 }
 
-.box6{
+#f{
     background-color:forestgreen;
-
 }
 
-.box7{
- background-color:darkorchid
+#g{
+    background-color:darkorchid;
 }
 
-.box8{
-background-color: hotpink;
+#h{
+    background-color:hotpink ;
 }
 
-.box9{
-background-color: indigo;
+#i{
+    background-color: indigo;
 }
 
-.box10{
-background-color: dodgerblue;
+#j{
+    background-color: dodgerblue;
 }
+
+
+.about-container{
+	width:40%;
+	height:50%;
+    border-bottom:1px dotted black;
+    display:flex;
+	flex-wrap:wrap;
+    justify-content:space-between;
+    border: 1px solid black;
+	
+	margin: 0 auto;
+}
+
+
+.container about-page{
+	display:flex;
+	flex-flow:wrap;
+    justify-content:space-between;
+    align-content:flex-start;
+	width:600px;
+	margin: 0 auto;
+}
+
+
+.about{
+	margin: 0 auto;
+	width:800px;
+	border-bottom:1px dotted black;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+
