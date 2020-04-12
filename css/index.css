@@ -24,6 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -51,6 +52,50 @@ table {
     box-sizing: border-box;
 }
 
+.body-nav{
+   display:flex;
+   justify-content:center;
+   margin-right:20%;
+    
+}
+
+.lamda-logo{
+    margin-left:23%;
+    margin-right:5%;
+    margin-bottom:30px;
+}
+
+.navgation{
+    display: flex;
+    justify-content:center;
+    margin-top: 20px;
+    color:black;
+    
+}
+nav {
+    display: flex;
+    justify-content:center;
+    margin-top: 20px;
+    color:black;
+    
+}
+
+nav a{
+    color:black;
+    padding-right:80px;
+    margin-bottom:20px;
+    width:44%;
+    
+}
+
+
+.header-img{
+    display:flex;
+    justify-content:center;
+    padding-top:20px;
+    padding-bottom:30px;
+}
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -65,6 +110,7 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+
 
 .container {
     width: 800px;
@@ -85,33 +131,25 @@ p {
     padding-bottom: 20px;  
 }
 
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
 
-.middle-content h2 {
+.middle-content{
+    width: 1000px;
     padding: 0 2%;
     margin-bottom: 0;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+
 }
 
-.middle-content .boxes {
+.boxes{
+    width:730px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    padding:10px;
+   
+   
 }
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -131,8 +169,14 @@ footer {
     background: black;
 }
 
+.foot{
+    width:51%;
+    background: black;
+   margin-left:26%;
+}
+
 footer nav {
-    width: 60%;
+    width: 40%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -144,3 +188,150 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+#a{
+background-color:teal;
+padding:30px;
+margin:10px;
+
+}
+
+#b{
+    background-color:gold; 
+    padding:30px;
+    margin:10px;
+}
+
+#c{
+    background-color:cadetblue;
+    padding:30px; 
+    margin:10px;
+}
+
+#d{
+    background-color: coral;
+    padding:30px;
+    margin:10px;
+}
+
+#e{
+    background-color:crimson;
+    padding:30px;
+    margin:10px;
+}
+
+#f{
+    background-color:forestgreen;
+    padding:30px;
+    margin:10px;
+}
+
+#g{
+    background-color:darkorchid;
+    padding:30px;
+    margin:10px;
+}
+
+#h{
+    background-color:hotpink;
+    padding:30px;
+    margin:10px;
+}
+
+#i{
+    background-color: indigo;
+    padding:30px;
+    margin:10px;
+}
+
+#j{
+    background-color: dodgerblue;
+    padding:25px;
+    margin:10px;
+}
+/*index css*/
+/* 
+
+
+.about_flexcontainer{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    margin:0 auto;
+    width:1000px;
+}
+
+.container_page{
+
+    
+}
+
+
+.about{
+	margin: 0 auto;
+	width:800px;
+	border-bottom:1px dotted black;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+} */
+
+
+.about-container{
+    
+    /*border:red 1px solid;*/
+    width:40%;
+    margin:0 auto;
+    border-bottom:1px dotted black;
+ 
+    
+}
+
+.about_v1{
+    text-align:left;
+    width:40%;
+    margin:auto;
+    border-bottom:1px dotted black;
+ 
+
+    
+}
+
+.box_flexcontainer{
+    display:flex;
+    flex-wrap: wrap;
+    width:800px;
+    margin: 0 auto;
+    padding-bottom:1%;
+    
+}
+
+.about-header{
+    padding-top:2%;
+}
+
+.about-p{
+    padding-bottom:6%;
+}
+
+.about-button{
+    background-color:whitesmoke;
+    border-radius:8px;
+    border: 2px solid black;
+    padding:3%;
+    width:40%;
+    margin-bottom:20px;
+}
+
+.image-about{
+    padding-top:15%;
+}
+
+.work{
+text-align: left;
+width:40%;
+margin-left:28%;
+padding-top:2%;
+padding-bottom:1%
+}
+
